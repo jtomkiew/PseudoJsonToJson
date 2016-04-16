@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using JsonFixer;
 
-namespace PseudoJson.Tests
+namespace JsonFixerTests
 {
     [TestFixture]
     public class JsonTests
