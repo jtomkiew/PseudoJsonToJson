@@ -7,8 +7,8 @@
     <ProjectGuid>{4D802E34-E355-4DF2-902C-ADC8DAB7F779}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PseudoJsonToJson</RootNamespace>
-    <AssemblyName>PseudoJsonToJson</AssemblyName>
+    <RootNamespace>JsonFixer</RootNamespace>
+    <AssemblyName>JsonFixer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,8 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JsonAmbulance.cs" />
+    <Compile Include="JsonFixer.cs" />
+    <Compile Include="JsonFixerExceptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringExtention.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
